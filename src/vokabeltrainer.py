@@ -5,7 +5,8 @@ import random
 import csv
 import subprocess
 
-DB_PATH = "/home/birgit/PycharmProjects/Woerterbuch/src/vokabeln.db"
+DB_PATH = "/path/to/project/src/vokabeln.db"
+
 print(f"[INFO] Verwende Datenbank: {DB_PATH}")
 
 def init_db():
